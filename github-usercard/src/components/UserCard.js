@@ -2,15 +2,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 class UserCard extends React.Component {
-  constructor() {
-    super()
-  }
-
   render() {
     return (
       <CardBox>
         <H1>{this.props.name}</H1>
-        <img src={this.props.image} />
+        <img src={this.props.image} alt="userimage" />
         <FlexToBottom>
           <P>Location: {this.props.location}</P>
           <P>Repos: {this.props.repos}</P>

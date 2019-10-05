@@ -2,10 +2,6 @@ import React from 'react';
 import styled from 'styled-components';
 
 class GitHeader extends React.Component {
-  constructor() {
-    super()
-  }
-
   render() {
     return (
       <>
@@ -16,7 +12,7 @@ class GitHeader extends React.Component {
 }
 const HeaderStyle = styled.h1`
   text-align: center;
-  fontsize: 2 rem;
+  font-size: 2.5rem;
 `;
 
 export default GitHeader;
